@@ -1,0 +1,10 @@
+# Assign the variable total on line 8!
+
+meal = 44.50
+tax = 0.0675
+tip = 0.15
+
+meal = meal + meal * tax  #meal is now the value of the meal plus the tax you pay
+total=meal + (meal*tip)  #total is now the value of the meal plus the tax you paid on it, and you use that the claculate the tip and add it on
+
+print("%.2f" % total)  #print out the total in 2 decimal places 
