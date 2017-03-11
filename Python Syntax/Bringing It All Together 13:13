@@ -1,0 +1,6 @@
+#This is a comment. I like noodles.I followed the instructions given and assigned these variables to the values they told me to assign.
+monty=True
+python=1.234
+monty_python=python**2
+print(python)
+print(monty_python)
