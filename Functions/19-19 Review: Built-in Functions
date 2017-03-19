@@ -1,0 +1,5 @@
+def distance_from_zero(input):
+    if type(input)==int or type(input)==float:
+        return abs(input)
+    else:
+        return("Nope")
