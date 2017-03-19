@@ -1,0 +1,14 @@
+pyg = 'ay' #suffix
+
+original = raw_input('Enter a word:') #input
+
+#2 different ways this can go
+if len(original) > 0 and original.isalpha():  # it is a word
+    print  #repeat original word
+    word=original.lower() #make it lower case
+    first=word[0] #take the first letter
+    new_word=word+first+pyg #concatenate 
+    new_word=new_word[1:len(new_word)] #strip
+    print(new_word) #print final word
+else:
+    print 'empty' #not a word or nothing entered
