@@ -1,0 +1,5 @@
+# Print out the types of an integer, a float,
+# and a string on separate lines below.
+print type(224)
+print type(3.14152654)
+print type('monty python')
