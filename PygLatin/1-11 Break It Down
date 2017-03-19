@@ -1,0 +1,5 @@
+word=raw_input("Please enter a word")
+print word
+root=word.lstrip
+pygword=root+"ay"
+print pygword
